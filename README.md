@@ -1,28 +1,28 @@
-# CALCIFY
+# calcify.js
 
-**Calcify** is a NPM package which calculates area and volume of geometrical shapes.
+**calcify.js** is a NPM package which calculates area and volume of geometrical shapes.
 
 ## How to install this package?
 
 ```sh
-npm install calcify
+npm install calcify.js
 ```
 
 ## Usage of this packge
 
 ```js
-const calcify = require("calcify");
+const calcifyJS = require("calcify.js");
 
 //Area of a square
-console.log(calcify.squareArea(6));
+console.log(calcifyJS.squareArea(6));
 //Output -> 36
 
 //Area of Cuboid
-console.log(calcify.cuboidArea(12, 6, 5));
+console.log(calcifyJS.cuboidArea(12, 6, 5));
 //Output -> 324
 
 //Area of Sphere
-console.log(calcify.sphereVolume(7));
+console.log(calcifyJS.sphereVolume(7));
 //Output -> 1436.755040241732
 ```
 
